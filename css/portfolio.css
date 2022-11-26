@@ -21,16 +21,24 @@ body {
   font-size: 16px;
 }
 
-html {
-  height: 100% !important;
+/* Make the Home page full screen. */
+#home{
+  height: 100vh;
 }
 
-body {
-  height: 100% !important;
+/* Make the About page full screen. */
+#about{
+  height: 100vh;
 }
 
-#home{ 
-  height: 100vh !important ;
+/* Make the Projects page full screen. */
+#projects{
+  height: 100vh;
+}
+
+/* Make the Contact page full screen. */
+#contact{
+  height: 100vh;
 }
 
 /* Make the contained the full width of the screen */
