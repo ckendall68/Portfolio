@@ -23,7 +23,7 @@ body {
 
 /* Make the Home page full screen. */
 #home{
-  height: 100vh;
+   height: 100vh;
 }
 
 /* Make the About page full screen. */
@@ -46,5 +46,18 @@ body {
     .container{
         max-width: 100%;
         background-color: #ADD8E6;
+    }
+}
+
+/* Change the font size on the home page */
+#home p {
+  font-size: 1.2em;
+}
+
+/* Decrease the image size for mobile views */
+@media (min-width: 480px) {
+    .myphoto{
+        height: 65%;
+        width:auto;
     }
 }
