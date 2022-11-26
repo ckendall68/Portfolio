@@ -1,0 +1,42 @@
+/* White text for the Nav pills */
+.nav-pills a{
+  color: #FFFFFF;
+}
+
+
+/* Imcrease the size of the logo. */
+img.rounded-circle {
+  width: 65%;
+}
+
+/* Change the display of the header, Nav-pills and Logo */
+.container {
+  display: inline-flex;
+}
+
+/* Set the font-family as Garamond for the family along with remaining values
+if Garamond is not available. */
+body {
+  font-family: Garamond, Georgia, serif, verdana, "Times New Roman";
+  font-size: 16px;
+}
+
+html {
+  height: 100% !important;
+}
+
+body {
+  height: 100% !important;
+}
+
+#home{ 
+  height: 100vh !important ;
+}
+
+/* Make the contained the full width of the screen */
+@media (min-width: 480px) {
+    .container{
+        max-width: 100%;
+        background-color: #ADD8E6;
+    }
+}
