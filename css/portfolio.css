@@ -47,12 +47,9 @@ body {
 }
 
 .learnMoreBtn{
-  /*text-align: center !important;*/
-  color: #FFFFFF;
   background: #0000FF;
   height: 50px;
-  margin: auto;
-  /*vertical-align: middle;*/
+  margin: auto;s
   margin-top: 5px;
   width: 25%;
   border: 1px solid black;
