@@ -53,7 +53,7 @@ body {
   width: 25%;
   border: 1px solid black;
   display: flex;
-  background: #0000FF;
+  background: #0000FF !important;
   align-items: center;
   justify-content: center;
 }
