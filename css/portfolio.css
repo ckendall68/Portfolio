@@ -41,6 +41,26 @@ body {
   height: 100vh;
 }
 
+/* Change the font size on the home page */
+#home p {
+  font-size: 1.2em;
+}
+
+.learnMoreBtn{
+  /*text-align: center !important;*/
+  color: #FFFFFF;
+  background: blue;
+  height: 50px;
+  margin: auto;
+  /*vertical-align: middle;*/
+  margin-top: 5px;
+  width: 25%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Make the contained the full width of the screen */
 @media (min-width: 480px) {
     .container{
@@ -49,10 +69,6 @@ body {
     }
 }
 
-/* Change the font size on the home page */
-#home p {
-  font-size: 1.2em;
-}
 
 /* Decrease the image size for mobile views */
 @media (min-width: 480px) {
