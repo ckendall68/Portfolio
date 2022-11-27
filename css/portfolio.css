@@ -47,13 +47,13 @@ body {
 }
 
 .learnMoreBtn{
-  background: #0000FF;
   height: 50px;
   margin: auto;s
   margin-top: 5px;
   width: 25%;
   border: 1px solid black;
   display: flex;
+  background: #0000FF;
   align-items: center;
   justify-content: center;
 }
