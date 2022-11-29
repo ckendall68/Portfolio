@@ -46,17 +46,31 @@ body {
   font-size: 1.2em;
 }
 
+/* Add style to the Learn More buttun */
 .learnMoreBtn{
-  background: #0000FF;
+/*  background: #0000FF;
   height: 50px;
   margin: 5px auto;
   color: #FFFFFF;
   margin-top: 5px;
   width: 25%;
-  border: 1px solid black;
+  border: 1px solid black;*/
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn{
+  /*width: 100px;
+  height: 100px;*/
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: #55AAFF;}
+  to {background-color: #0044FF;}
 }
 
 /* Make the contained the full width of the screen */
