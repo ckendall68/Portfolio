@@ -24,6 +24,7 @@ body {
 /* Make the Home page full screen. */
 #home{
    height: 100vh;
+   background-color: #ADD8E6 !important;
 }
 
 /* Make the About page full screen. */
@@ -66,6 +67,10 @@ body {
   background-color: blue;
   animation-name: example;
   animation-duration: 4s;
+}
+
+#home h3{
+  text-align: center;
 }
 
 @keyframes example {
