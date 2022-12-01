@@ -30,6 +30,7 @@ body {
 /* Make the About page full screen. */
 #about{
   height: 100vh;
+  background-color: #ADD8E6 !important;
 }
 
 /* Make the Projects page full screen. */
@@ -64,8 +65,8 @@ body {
 .btn{
   /*width: 100px;
   height: 100px;*/
-  background-color: blue;
-  animation-name: example;
+  background-color: #0044FF;
+  animation-name: btnColor;
   animation-duration: 4s;
 }
 
@@ -73,12 +74,104 @@ body {
   text-align: center;
 }
 
-@keyframes example {
-  from {background-color: #55AAFF;}
-  to {background-color: #0044FF;}
+.laptop {
+  height: 300px;
+  width: auto;
+  animation: bounce;
+  animation-duration: 10s;
 }
 
-/* Make the contained the full width of the screen */
+#about p {
+  font-size: 1.2em;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+
+	.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+	.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+background: #833AB4;
+color: white;
+}
+
+
+/*	.fa-instagram {
+  background: red !important;
+  color: white;
+} */
+
+
+
+@keyframes btnColor {
+  from {background-color: #FF0000;}
+  to {background-color: #0000FF;}
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+}
+
+@keyframes tada {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.tada {
+  animation-name: tada;
+}
+
+/* Make the container the full width of the screen */
 @media (min-width: 480px) {
     .container{
         max-width: 100%;
@@ -91,6 +184,23 @@ body {
 @media (min-width: 480px) {
     .myphoto{
         height: 65%;
+        width:auto;
+    }
+}
+
+/* Make the container the full width of the screen */
+@media (min-width: 480px) {
+    #about{
+        max-width: 100%;
+        background-color: #ADD8E6;
+    }
+}
+
+
+/* Decrease the image size for mobile views */
+@media (min-width: 480px) {
+    .laptop{
+        height: 10%;
         width:auto;
     }
 }
