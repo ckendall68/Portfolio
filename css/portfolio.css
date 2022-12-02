@@ -4,7 +4,7 @@
 }
 
 html, body {
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 
@@ -209,12 +209,18 @@ color: white;
     }
 }
 
-@media (max-width: 370px) {
-  body{
+@media (max-width: 600px) {
+  /*body{
     min-height: 100vh;
     margin: 0;
     padding: 0;
     background-color: #ADD8E6 !important;
+  }*/
+  #home{
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     background-color: #ADD8E6 !important;
   }
 }
 
