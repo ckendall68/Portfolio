@@ -30,6 +30,8 @@ body {
 /* Make the Home page full screen. */
 #home{
    height: 100vh;
+   margin: 0;
+   padding: 0;
    background-color: #ADD8E6 !important;
 }
 
@@ -202,7 +204,11 @@ color: white;
     }
 }
 
-
+@media (max-width: 768px) {
+  body{
+    height: 100vh;
+  }
+}
 
 /* Make the container the full width of the screen */
 @media and (min-width: 480px) {
