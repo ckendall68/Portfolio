@@ -103,7 +103,8 @@ p {
 }
 
 .footer {
-   display: flex;
+   position: sticky;
+   bottom: 0;
    min-height:100vh;
    flex-direction:column;
    /*left: 0;
