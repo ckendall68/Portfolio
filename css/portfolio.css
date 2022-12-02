@@ -111,7 +111,7 @@ p {
    height: 60px;
    color: white;
    text-align: center;
-   line-height: 60 px;
+  /* line-height: 60 px;*/
 }
 
 .logo {
