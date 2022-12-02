@@ -38,6 +38,7 @@ body {
    margin: 0;
    padding: 0;
    background-color: #ADD8E6 !important;
+   flex: 1;
 }
 
 /* Make the About page full screen. */
@@ -103,10 +104,12 @@ p {
 }
 
 .footer {
-   position: relative;
-   left: 0;
+   display: flex;
+   min-height:100vh;
+   flex-direction:column;
+   /*left: 0;
    bottom: 0;
-   width: 100%;
+   width: 100%;*/
    color: white;
    text-align: center;
 }
