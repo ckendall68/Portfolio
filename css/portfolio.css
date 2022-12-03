@@ -29,10 +29,10 @@ body {
 }
 
 /* Paragraph margin */
-p {
+/* p {
   margin: 5px;
   font-size: 1.5em !important;
-}
+} */
 
 /* Add style to the Learn More buttun */
 .learnMoreBtn{
@@ -50,9 +50,9 @@ p {
 
 /* Increase the About paragraph font size */
 p {
-  font-size: 1.2em;
-  margin-left: 100px;
-  margin-right: 100px;
+  font-size: 1.5em;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* Put space between the table and the paragraph */
