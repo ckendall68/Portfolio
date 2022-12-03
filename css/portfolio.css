@@ -161,7 +161,7 @@ color: white;
   animation-name: tada;
 }
 
-.nav-link.active {
+.active, .nav-link:hover {
   color: white;
   background: red;
 }
