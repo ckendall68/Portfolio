@@ -15,12 +15,23 @@ window.open("https://ckendall68.github.io/Portfolio/about.html");
 //  // link.target = "_self"
 //   //link.click()
 // window.location.assign(link);
+//
+// var navItems = document.querySelectorAll(".nav-item");
+// for (var i = 0; i < navItems.length; i++) {
+// navItems[i].addEventListener("click", function() {
+//    this.classList.add("active");
+//    console.log(navItems[i]);
+// });
+// }
+// console.log(navItems);
 
-var navItems = document.querySelectorAll(".nav-item");
-for (var i = 0; i < navItems.length; i++) {
-navItems[i].addEventListener("click", function() {
-   this.classList.add("active");
-   console.log(navItems[i]);
-});
+// Add active class to the current button (highlight it)
+var navbar = document.getElementById("collapsibleNavbar");
+var navLink = navbar.getElementsByClassName("nav-link");
+for (var i = 0; i < navLink.length; i++) {
+  navLink[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
 }
-console.log(navItems);
