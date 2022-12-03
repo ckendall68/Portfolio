@@ -64,60 +64,48 @@ body {
   font-size: 1.4em;
 }
 
+/* Paragraph margin */
 p {
   margin: 10px;
 }
 
 /* Add style to the Learn More buttun */
 .learnMoreBtn{
-/*  background: #0000FF;
-  height: 50px;
-  margin: 5px auto;
-  color: #FFFFFF;
-  margin-top: 5px;
-  width: 25%;
-  border: 1px solid black;*/
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* Animation to call attention to the button. */
 .btn{
-  /*width: 100px;
-  height: 100px;*/
   background-color: #0044FF;
   animation-name: btnColor;
   animation-duration: 4s;
 }
 
-#home h3{
-  text-align: center;
-}
-
-.laptop {
+/* Laptop image */
+/*.laptop {
   height: 300px;
   width: auto;
   animation: bounce;
   animation-duration: 10s;
-}
+}*/
 
-#about p {
+/* Increase the About paragraph font size */
+p {
   font-size: 1.2em;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-/*#about:after {
-  /* position: absolute;*/
-   /*bottom: 0;*/
-  /* width: 100%;
-   height: 75px;
-   color: white;
-   display:block;
-  /* content: ""
-   /*text-align: center;*/
-  /* line-height: 60 px;*/
-/*}*/
+/* Put space between the table and the paragraph */
+.table-container {
+  margin-top: 50px;
+}
 
-#page-comtainer{
+/* Fill the screen with the about-container. Do not overlap footer. position
+the footer at the bottom of the screen. */
+#about-comtainer{
   position: relative;
   min-jeight: 100vh;
 }
@@ -127,20 +115,13 @@ p {
 }
 
 .footer{
-  /*height: 75px;
-  color:white;
-  margin-bottom: 0;
-  display:block;*/
-
   position: absolute;
-  /* right: 0;*/
   bottom: 0;
-  /*left: 0;*/
-/*  padding: 1rem;*/
   width:  100%;
   height; 2.5rem;
   text-align: center;
 }
+
 
 .logo {
   height: 10% !important;
@@ -161,6 +142,7 @@ body {
     align-items: flex-start;*/
 }
 
+/* Social media icon styles */
 	.fa {
   padding: 20px;
   font-size: 30px;
@@ -194,7 +176,7 @@ background: #833AB4;
 color: white;
 }
 
-
+/* Animation for the Learn More button  */
 @keyframes btnColor {
   from {background-color: #FF0000;}
   to {background-color: #0000FF;}
@@ -205,6 +187,7 @@ color: white;
   animation-iteration-count: 2;
 }
 
+/* Animation for the laptop pic */
 @keyframes tada {
   0% {
     transform: scale3d(1, 1, 1);
@@ -255,7 +238,7 @@ color: white;
     }
 }
 
-@media screen and  (max-width: 600px) {
+/* @media screen and  (max-width: 600px) {
   /*body{
     min-height: 100vh;
     margin: 0;
@@ -271,18 +254,18 @@ color: white;
 }*/
 
 /* Make the container the full width of the screen */
-@media and (min-width: 480px) {
+/*@media and (min-width: 480px) {
     #about{
         max-width: 100%;
         background-color: #ADD8E6;
     }
-}
+}*/
 
 
 /* Decrease the image size for mobile views */
-@media (min-width: 480px) {
+@media screen and  (min-width: 480px) {
     .laptop{
-        height: 10%;
+        height: 50%;
         width:auto;
     }
 }
