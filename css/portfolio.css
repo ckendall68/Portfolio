@@ -161,6 +161,11 @@ color: white;
   animation-name: tada;
 }
 
+.nav-link.active {
+  color: white;
+  background: red;
+}
+
 /* Make the container the full width of the screen */
 @media (min-width: 480px) {
     .container{
