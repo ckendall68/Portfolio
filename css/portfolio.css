@@ -103,11 +103,11 @@ p {
   margin-top: 50px;
 }
 
-/* Fill the screen with the about-container. Do not overlap footer. position
+/* Fill the screen with the page-container. Do not overlap footer. position
 the footer at the bottom of the screen. */
-#about-comtainer{
+#page-comtainer{
   position: relative;
-  min-jeight: 100vh;
+  min-height: 100vh;
 }
 
 #content-wrap {
@@ -118,7 +118,7 @@ the footer at the bottom of the screen. */
   position: absolute;
   bottom: 0;
   width:  100%;
-  height; 2.5rem;
+/*  height: 2.5rem;*/
   text-align: center;
 }
 
