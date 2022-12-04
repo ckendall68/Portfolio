@@ -5,7 +5,7 @@ html {
 }
 
 .navbar-nav a {
-  background:rgb(0,0,255,0.6) ;
+  background:rgb(0,0,255,0) ;
   margin-right:5px;
   border: 1px black solid;
   color:white;
@@ -161,9 +161,14 @@ color: white;
   animation-name: tada;
 }
 
-.active, .nav-link:hover {
+.active {
   color: white;
-  background: rgb(0,0,255,0);
+  background: rgb(25,25,112);
+}
+
+.nav-link:hover {
+  color: white;
+  background: rgb(0,0,255,.4);
 }
 
 /* Make the container the full width of the screen */
