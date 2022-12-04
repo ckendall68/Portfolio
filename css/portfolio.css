@@ -5,7 +5,7 @@ html {
 }
 
 .navbar-nav a {
-  background:rgb(0,0,255,0) ;
+  background:rgb(0,0,255) ;
   margin-right:5px;
   border: 1px black solid;
   color:white;
