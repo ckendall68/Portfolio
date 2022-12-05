@@ -89,6 +89,37 @@ body {
   background-color: #ADD8E6;
 }
 
+/* form container */
+.input-container{
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Form fields */
+.input-field{
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus{
+  border: 2px solid dodgerblue;
+}
+
+.form-btn{
+  background: #0000FF;
+  color: white;
+}
 /* Social media icon styles */
 	.fa {
   padding: 20px;
@@ -97,6 +128,16 @@ body {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+}
+
+/*.form-info {
+  text-align: center;
+}*/
+
+form {
+  /*display: inline-block;*/
+  max-width:500px;
+  margin:auto;
 }
 
 .fa:hover {
