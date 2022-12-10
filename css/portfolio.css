@@ -25,14 +25,15 @@ img.rounded-circle {
 if Garamond is not available. */
 body {
   font-family: Garamond, Georgia, serif, verdana, "Times New Roman";
+  background-color: #ADD8E6;
   /*z: 16px;*/
 }
 
 /* Paragraph margin */
 .about p {
   margin: 5px;
-  font-size: 1.5em !important;
-} 
+  font-size: 1.2em !important;
+}
 
 /* Add style to the Learn More buttun */
 .learnMoreBtn{
@@ -85,9 +86,9 @@ the footer at the bottom of the screen. */
   width: auto !important;
 }
 
-body {
+/* body {
   background-color: #ADD8E6;
-}
+} */
 
 /* form container */
 .input-container{
@@ -213,7 +214,7 @@ color: white;
 }
 
 .project-images {
-   width: 100% !important;
+   width: 600px;/*100% !important;*/
    height: 300px !important;
    border: 2px solid black;
 }
@@ -270,14 +271,14 @@ color: white;
 }*/
 
 /*---------------------*/
-body {
+/* body {
   color: #333;
   font-family: Arial, Helvetica, serif;
   font-weight: normal;
   margin: 0;
   padding: 0;
   background: url(https://josetxu.com/img/fondo_blanco.png) repeat 0 0 red;
-}
+} */
 
 h1 {
   background: #333;
