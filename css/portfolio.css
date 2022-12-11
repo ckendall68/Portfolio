@@ -16,6 +16,10 @@ img.rounded-circle {
   width: 65%;
 }
 
+#home p {
+  font-size: 32px;
+}
+
 /* Change the display of the header, Nav-pills and Logo */
 .container {
   display: inline-flex;
