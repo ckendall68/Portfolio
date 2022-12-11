@@ -1,12 +1,12 @@
-//function showPage(page){
+function showPage(page){
 //  console.log("showPage");
-//  const element = document.getElementById("about");
+  const element = document.getElementById("about");
 // console.log(page)
-//  element.scrollIntoView();
-window.open("https://ckendall68.github.io/Portfolio/about.html");
-//window.open(page, "_self");
+  //element.scrollIntoView();
+//window.open("https://ckendall68.github.io/Portfolio/about.html");
+window.open(page, "_self");
 //window.open("https://www.google.com","_self")
-//}
+}
 
 // function showPage(page) {
 //   var link = page;
@@ -66,5 +66,3 @@ window.onclick = function(event) {
 }
 
 }
-
-// displayModal(modalName,btnName);
