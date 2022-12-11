@@ -224,6 +224,10 @@ color: white;
   color: white;
 }
 
+#myBtn1, #myBtn2, #myBtn3, #myBtn4{
+  background: blue;
+  color: white;
+}
 .project-heading {
   color: #0000FF;
 }
