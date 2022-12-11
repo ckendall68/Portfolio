@@ -35,10 +35,10 @@ window.open("https://ckendall68.github.io/Portfolio/about.html");
 //   this.className += " active";
 //   });
 // }
-function displayModal(modalName, btnName){
+function displayModal(modalName, btnName, i){
   var mdl=modalName;
   var mdlBtn=btnName;
-  console.log("shrug")
+  var num=i;
   // Get the modal
   var modal = document.getElementById(mdl);
 
@@ -46,7 +46,7 @@ function displayModal(modalName, btnName){
 var btn = document.getElementById(mdlBtn);
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close")[num];
 
 // When the user clicks the button, open the modal
 btn.onclick = function() {
