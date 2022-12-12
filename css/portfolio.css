@@ -9,8 +9,9 @@ html {
   margin-right:5px;
   border: 1px black solid;
   color:white;
-  font-size: 32px;
+  font-size: 25px;
 }
+
 /* Imcrease the size of the logo. */
 img.rounded-circle {
   width: 65%;
@@ -343,18 +344,51 @@ color: white;
     }
 }
 
-/* Decrease the image size for mobile views */
+/* Don't show the image for extra-small screens. */
 @media screen and (max-width: 600px) {
     .logo{
        display:none;
     }
 }
 
-/* Decrease the image size for mobile views */
-@media screen and  (min-width: 480px) {
+/* Decrease the image size for tablets and large phone views */
+@media screen and  (max-width: 600px) {
+    .laptop{
+        /* height: 50%;
+        width:auto; */
+        height: 50%;
+        width:auto;
+    }
+}
+
+/* Decrease the image size for extra-small devices */
+/* @media screen only and (min-width: 600px) {
+    .logo{
+       display:none;
+    }
+} */
+
+/* Decrease the image size for extra small devices */
+/* @media screen only and  (max-width: 600px) {
     .laptop{
         height: 50%;
         width:auto;
+    }
+} */
+
+/* Decrease the image size for extra small devices */
+@media screen and  (max-width: 600px) {
+    /* .row .project-images{
+        height: 90% !important;
+        width:auto; !important */
+        /* margin-bottom: 10px !important; */
+    }
+}
+
+/* Decrease the image size for extra small devices */
+@media screen and (max-width: 600px) {
+    .navbar-nav a{
+       font-size: 20px;
     }
 }
 
