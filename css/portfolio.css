@@ -130,7 +130,7 @@ the footer at the bottom of the screen. */
 	.fa {
   padding: 20px;
   font-size: 30px;
-  width: 50px;
+  width: 70px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -146,6 +146,13 @@ form {
   margin:auto;
 }
 
+.footer-link{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
 .fa:hover {
     opacity: 0.7;
 }
