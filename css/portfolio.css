@@ -170,6 +170,11 @@ background: #833AB4;
 color: white;
 }
 
+.fa-envelope {
+  background: #6699CC;
+  color: white;
+  }
+
 /* Animation for the Learn More button  */
 @keyframes btnColor {
   from {background-color: #FF0000;}
@@ -277,16 +282,6 @@ color: white;
   transform: rotateY(180deg);
 }
 
-/*.projects {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.projects .flip-card{
-  flex: 1 0 33% !important;
-  width: 500px;
-  border: 1px solid black;
-}*/
 
 /* The Modal (background) */
 .modal {
@@ -361,29 +356,8 @@ color: white;
     }
 }
 
-/* Decrease the image size for extra-small devices */
-/* @media screen only and (min-width: 600px) {
-    .logo{
-       display:none;
-    }
-} */
 
-/* Decrease the image size for extra small devices */
-/* @media screen only and  (max-width: 600px) {
-    .laptop{
-        height: 50%;
-        width:auto;
-    }
-} */
 
-/* Decrease the image size for extra small devices */
-@media screen and  (max-width: 600px) {
-    /* .row .project-images{
-        height: 90% !important;
-        width:auto; !important */
-        /* margin-bottom: 10px !important; */
-    }
-}
 
 /* Decrease the image size for extra small devices */
 @media screen and (max-width: 600px) {
@@ -392,9 +366,3 @@ color: white;
     }
 }
 
-/* Decrease the  size of the navbar for mobile views */
-/* @media screen and (min-width: 480px) {
-    .navbar-nav a{
-        font-size: 80%;
-    }
-} */
