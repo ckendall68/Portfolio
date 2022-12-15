@@ -125,6 +125,7 @@ the footer at the bottom of the screen. */
 .form-btn{
   background: #0000FF;
   color: white;
+  margin-top: 1px !important;
 }
 /* Social media icon styles */
 	.fa {
@@ -355,6 +356,12 @@ color: #000080;
     }
 }
 
+@media screen and (max-width: 600px) {
+  .input-container{
+     margin-top: 2px !important;
+
+  }
+}
 
 /* Decrease the image size for mobile views */
 @media screen and (max-width: 600px) {
