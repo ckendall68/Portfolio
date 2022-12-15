@@ -344,8 +344,11 @@ color: #000080;
 }
 
 @media screen and (max-width: 600px) {
-    navbar-nav a{
+    .navbar-nav a{
         font-size: 14px !important;
+        text-decoration: underline !important;
+        background: none !important;
+        
     }
 }
 
