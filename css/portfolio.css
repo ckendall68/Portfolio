@@ -348,7 +348,10 @@ color: #000080;
         font-size: 14px !important;
         text-decoration: underline !important;
         background: none !important;
-        
+        border: none;
+        display:inline-block !important;
+        padding: 0 !important;
+
     }
 }
 
