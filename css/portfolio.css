@@ -358,8 +358,8 @@ color: #000080;
 
 @media screen and (max-width: 600px) {
   .input-container{
-     margin-top: 2px !important;
-
+     margin: 0 !important;
+     padding: 0 !important;
   }
 }
 
