@@ -99,7 +99,7 @@ the footer at the bottom of the screen. */
 .input-container{
   display: flex;
   width: 100%;
-  margin-bottom: 2px !important;
+  margin-bottom: 1px !important;
 }
 
 /* Form icons */
