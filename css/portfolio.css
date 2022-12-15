@@ -344,8 +344,8 @@ color: #000080;
 }
 
 @media screen and (max-width: 480px) {
-    .fa{
-        display:none;
+    navbar-nav a{
+        font-size: 14px;
     }
 }
 
